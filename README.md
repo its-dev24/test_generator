@@ -1,8 +1,4 @@
-I apologize for the confusion. I see exactly what is happening—the previous responses were rendering the formatting instead of giving you the raw text code to copy.
 
-Here is the **exact raw text** you need. Copy everything inside the box below and paste it directly into your `README.md` file.
-
-```markdown
 # 🧪 Unit Test Generator
 
 An automated tool designed to generate comprehensive unit tests for your code using Large Language Models (LLMs). This project bridges the gap between manual testing and automated code analysis, helping developers maintain high code coverage with minimal effort.
@@ -118,6 +114,4 @@ npm start
 
 *Developed with ❤️ by [its-dev24*](https://github.com/its-dev24)
 
-```
 
-```
