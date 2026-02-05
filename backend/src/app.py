@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.agents import branch_analyzer
+from src.controller import router
 
 app = FastAPI()
 
@@ -9,8 +9,4 @@ code = """
         print("good")
 """
 
-
-@app.post("/analyze")
-async def analyze(code: str):
-    result = await branch_analyzer(code)
-    return result
+app.include_router(router=router)
